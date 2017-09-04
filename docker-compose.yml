@@ -9,7 +9,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - .:/usr/src/project_name
+      - .:/usr/src/action_cable_sample
     links:
       - mysql
   mysql:
